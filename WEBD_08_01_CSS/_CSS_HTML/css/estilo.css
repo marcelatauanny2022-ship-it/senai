@@ -1,0 +1,38 @@
+body{
+    background-color: white;
+}  
+
+.titulo1{
+    font-family: arial;   /*seleciona a fonte*/
+    font-size: 35px;     /*Determina o tamanho da fonte*/
+    color:#1E90FF;   /*Escolhe a cor da fonte*/
+}
+
+h6{
+    font-family: Calibri;
+    font-size: 36px;
+    color: #FF0000;
+}
+
+p{
+    font-family: arial;
+    font-size: 24px;
+    color: #7D26CD;
+}
+
+.paragrafo1{
+    color: pink;
+    text-align: center; /*alinhamento a Direita*/
+}
+
+.paragrafo2{
+    color: #8a0af3;
+    text-align: left; /*alinhamento ao centro*/
+}
+
+.paragrafo3{
+    color: green;
+    text-align: left; /*alinhamento a esquerda*/
+}
+     
+

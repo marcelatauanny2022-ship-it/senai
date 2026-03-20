@@ -1,0 +1,45 @@
+<meta charset="UTF-8">
+    <title>Exercicio 05 - Formulário Completo</title>
+</head>
+<body>
+
+    <form action="" method="POST">
+        
+        <h3>Dados pessoais</h3>
+        
+        <label>Nome:</label>
+        <input type="text" name="nome" /><br /><br />
+        
+        <label>Idade:</label>
+        <input type="text" name="idade" /><br /><br />
+
+        <h3>Dados profissionais</h3>
+
+        <label>Escolaridade:</label>
+        <select name="escolaridade">
+            <option value="fundamental">Ensino Fundamental</option>
+            <option value="medio" selected>Ensino Médio</option>
+            <option value="superior">Ensino Superior</option>
+        </select>
+        <br /><br />
+
+        <label>Área de atuação</label>
+        <input type="radio" name="area" value="gerencia" checked /> Gerência
+        <input type="radio" name="area" value="financeiro" /> Financeiro
+        <input type="radio" name="area" value="recepcao" /> Recepção
+        <br /><br />
+
+        <label>Como podemos contatar você?</label><br />
+        <input type="checkbox" name="contato" value="email" checked /> E-mail<br />
+        <input type="checkbox" name="contato" value="telefone" checked /> Telefone<br />
+        <input type="checkbox" name="contato" value="whatsapp" checked /> Whatsapp<br />
+        <input type="checkbox" name="contato" value="noticias" checked /> Desejo receber notícias e dicas por e-mail
+        <br /><br />
+
+        <input type="submit" value="Submit" />
+        <input type="reset" value="Reset" />
+
+    </form>
+
+</body>
+</html>

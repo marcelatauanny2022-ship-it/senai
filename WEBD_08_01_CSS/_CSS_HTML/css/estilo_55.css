@@ -1,0 +1,90 @@
+body{
+    background: #eeee;
+    display: flex;                         /*defina a estrutura FLEX para BOX (caixas)*/
+    justify-content: center;                 /*centraliza elementos horizontes*/
+    align-items: center;                     /*centraliza elementos na vertical*/
+    min-height: 100vh;                     /*garante que o body ocupe a altura total da tela.*/
+}
+
+form{
+    border: solid 1px 1px 0px 1px #ccc;              /*determina borda do tipo solid com 1px e cor coinza*/
+    padding: 20px;                         /*Espaço ineterno de 20px para todos os lados*/
+    background: #f6f6f6;                  /*cor de fundo*/;
+}
+
+h6{
+    font-family: Arial, Helvetica, sans-serif;               /*familia de fonte*/
+    font-size: 35px;                                          /*Tamanho da fonte*/
+    color: #016b75;                                        /*Cor da fonte*/
+    text-align: center;                                        /*alinhamento ao centro*/
+    padding: 20px;                                              /*Espaçamento interno para todos os lados*/
+    margin: 0;
+}
+
+.subtit{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: #016b75;
+    padding: 5px 0px;
+
+}
+
+.inp{
+    font-family: Arial, Helvetica, sans-serif;                       
+    font-size: 18px;
+    color: #4444;
+    text-align: left;
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+.inp{
+    font-family: Arial, Helvetica, sans-serif;                         
+    font-size: 18px;
+    color: #4444;
+    text-align: left;
+    width: 100%;
+}
+
+.chk{
+    border: solid 1px #cccccc;
+
+}
+span{
+    font-family: Arial, Helvetica, sans-serif;                      
+    font-size: 18px;
+    color: #016b75;
+    text-align: left;
+}
+
+.enviar{
+    font-family: Arial, Helvetica, sans-serif;                        
+    font-size: 16px;
+    color: #ffffff;
+    text-align: center;
+    background: #016b75;
+    border: 0;
+    padding: 10px;
+    width: 100%;
+
+}
+
+.conta{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #555555;
+    background: #e1e9eb;
+    padding: 20px 20px ;
+    text-align: right;
+    margin: 0;
+    border-style: solid;
+   
+}
+
+.conta a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #016b75;
+    background: #ffffff;
+    padding: 5px;
+}
